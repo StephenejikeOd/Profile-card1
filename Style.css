@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 25rem;
+    margin: 10px;
+    gap: 4px;
+}
+
+header {
+    background-color: rgb(216, 173, 173);
+    width: 20rem;
+
+}
+
+body img {
+    width: 100px;
+    border-radius: 50px;
+    border: 5px rgb(175, 161, 161) solid;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    margin-top: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+    margin: 2rem;
+}
+
+div h2 {
+    margin-top: 0.5rem;
+}
+
+div strong {
+    margin-bottom: 0.1px;
+}
