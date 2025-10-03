@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+}
 
+@media screen (max-width: 600px) and (min-width: 600px) {
 }
 
 .card {
